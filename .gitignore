@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.coverage
+.pytest_cache/
+.test-tmp/
+.ruff_cache/
+.venv/
+.venv-build/
+venv/
+build/
+dist/
+*.log
+
+# Source and converted workbooks may contain confidential records.
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+!docs/**/*.xlsx
